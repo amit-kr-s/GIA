@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDbbbd0955143600507080f6bbd27049ad</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>32143bd81b264010a5ef6356bd4bcbb9</scope_name>
+        <serialized_content>{"FlowDesigner:FDbbbd0955143600507080f6bbd27049ad":{"Description":"String","Description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"true\",\"order\":\"18\",\"max_length\":\"0\"}"},"Email":"String","Email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"true\",\"order\":\"15\",\"max_length\":\"0\"}"},"Etag":"String","Etag.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Etag\",\"mandatory\":\"true\",\"order\":\"17\",\"max_length\":\"0\"}"},"Unique_ID":"String","Unique_ID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Unique ID\",\"mandatory\":\"true\",\"order\":\"14\",\"max_length\":\"0\"}"},"Project_ID":"String","Project_ID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Project ID\",\"mandatory\":\"true\",\"order\":\"13\",\"max_length\":\"0\"}"},"Display_Name":"String","Display_Name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"true\",\"order\":\"16\",\"max_length\":\"0\"}"},"OAuth2_Client_ID":"String","OAuth2_Client_ID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OAuth2 Client  ID\",\"mandatory\":\"true\",\"order\":\"19\",\"max_length\":\"0\"}"},"Disabled":"Boolean","Disabled.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Disabled\",\"mandatory\":\"true\",\"order\":\"20\",\"max_length\":\"0\"}"},"Name":"String","Name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"12\",\"max_length\":\"0\"}"}},"FlowDesigner:FDbbbd0955143600507080f6bbd27049ad.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDbbbd0955143600507080f6bbd27049ad\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Service Account\",\"mandatory\":\"true\",\"order\":\"12\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-05 06:43:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fbd09551b360050a5ef6356bd4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDbbbd0955143600507080f6bbd27049ad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>sys_complex_object_7fbd09551b360050a5ef6356bd4bcbad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-05 06:43:13</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

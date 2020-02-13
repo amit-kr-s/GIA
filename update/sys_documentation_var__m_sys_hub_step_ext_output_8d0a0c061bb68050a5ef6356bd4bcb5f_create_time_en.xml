@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="create_time" label="Create Time" language="en" table="var__m_sys_hub_step_ext_output_8d0a0c061bb68050a5ef6356bd4bcb5f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>create_time</element>
+            <help/>
+            <hint/>
+            <label>Create Time</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_8d0a0c061bb68050a5ef6356bd4bcb5f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-07 09:42:44</sys_created_on>
+            <sys_id>d10a0c061bb68050a5ef6356bd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Create Time</sys_name>
+            <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8d0a0c061bb68050a5ef6356bd4bcb5f_create_time_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-07 09:42:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

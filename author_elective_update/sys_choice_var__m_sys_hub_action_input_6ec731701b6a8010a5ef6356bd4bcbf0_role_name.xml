@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="role_name" table="var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom Apigee Analytics Agent</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>211c71eb1b76c450a5ef6356bd4bcba2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 04:30:40</sys_updated_on>
+            <value>projects/learning-263210/roles/CustomApigeeAnalyticsAgent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>projects/learning-263210/roles/cusKazakhLine</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>691c71eb1b76c450a5ef6356bd4bcba3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 04:30:40</sys_updated_on>
+            <value>projects/learning-263210/roles/cusKazakhLine</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>projects/learning-263210/roles/cusKazakhLine_.cust973792</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>251c71eb1b76c450a5ef6356bd4bcba4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 04:30:40</sys_updated_on>
+            <value>projects/learning-263210/roles/cusKazakhLine_.cust973792</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LinguisticRole</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed1c71eb1b76c450a5ef6356bd4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/cusLinguisticRole</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desc abc</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a91c71eb1b76c450a5ef6356bd4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custABC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Title AXC</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>651c71eb1b76c450a5ef6356bd4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custAXC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tulsi ki patti</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>211c71eb1b76c450a5ef6356bd4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custGHK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kong</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e91c71eb1b76c450a5ef6356bd4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custHongKong</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stuart</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b51c71eb1b76c450a5ef6356bd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custJSMill</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LinguisticRole</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>711c71eb1b76c450a5ef6356bd4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custLinguisticRole</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TitlePOW</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d1c71eb1b76c450a5ef6356bd4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custPOW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TITLE</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f51c71eb1b76c450a5ef6356bd4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custSOA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ford</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b11c71eb1b76c450a5ef6356bd4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custStanford</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virus</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d1c71eb1b76c450a5ef6356bd4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custWuhan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Title</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>391c71eb1b76c450a5ef6356bd4bcbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/custXYZ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fe Male</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f11c71eb1b76c450a5ef6356bd4bcbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/customMadeFe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Title of SN Role</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd1c71eb1b76c450a5ef6356bd4bcbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/customSNRole</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Title of the custom role </label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad1c71eb1b76c450a5ef6356bd4bcba2</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:55:39</sys_updated_on>
+            <value>projects/learning-263210/roles/customrole</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom  Role  In room</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>751c71eb1b76c450a5ef6356bd4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/kurzKazakh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Title</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>311c71eb1b76c450a5ef6356bd4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+            <value>projects/learning-263210/roles/roleKazakh</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>role_name</element>
+            <name>var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 09:52:00</sys_created_on>
+            <sys_id>691c71eb1b76c450a5ef6356bd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>role_name</sys_name>
+            <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_6ec731701b6a8010a5ef6356bd4bcbf0_role_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 09:52:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

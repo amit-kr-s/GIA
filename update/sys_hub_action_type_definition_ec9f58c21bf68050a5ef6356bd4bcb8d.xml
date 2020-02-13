@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Resource Manager">82f0858d1b3ecc10bdb94263cc4bcb51</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>delete_folder</internal_name>
+        <label_cache>[{"name":"{{action.folder_id}}","label":"action➛Folder ID","type":"action","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Delete Folder</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:16:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec9f58c21bf68050a5ef6356bd4bcb8d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Delete Folder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ec9f58c21bf68050a5ef6356bd4bcb8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec9f58c21bf68050a5ef6356bd4bcb8d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ec9f58c21bf68050a5ef6356bd4bcb8d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=ec9f58c21bf68050a5ef6356bd4bcb8d^sys_idNOT IN4ecf10861bf68050a5ef6356bd4bcb4b,7410e4861bf68050a5ef6356bd4bcbb9,bc10e4861bf68050a5ef6356bd4bcbe8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Folder">ec9f58c21bf68050a5ef6356bd4bcb8d</action>
+        <cid>016730e2-e1a3-499a-80fc-a9f490878f1f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pre Processing</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>4ecf10861bf68050a5ef6356bd4bcb4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4ecf10861bf68050a5ef6356bd4bcb4b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4ecf10861bf68050a5ef6356bd4bcb4b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>02cf90861bf68050a5ef6356bd4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var validPatterForFolder = /^folders\/[^/]+$/;
+  if (!validPatterForFolder.test(idOfFolder)) {
+    throw new Error("Name of the folder is in /^folders\/[^/]+$/ format : " + inputs.nameOfRole); 
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4ecf10861bf68050a5ef6356bd4bcb4b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>4ecf90861bf68050a5ef6356bd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4ecf10861bf68050a5ef6356bd4bcb4b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>4ecf10861bf68050a5ef6356bd4bcb4b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>0acf90861bf68050a5ef6356bd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>idOfFolder</field>
+        <id>4ecf10861bf68050a5ef6356bd4bcb4b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>8acf90861bf68050a5ef6356bd4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4ecf10861bf68050a5ef6356bd4bcb4b</table>
+        <value>{{action.folder_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>4ecf10861bf68050a5ef6356bd4bcb4b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>cacf90861bf68050a5ef6356bd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4ecf10861bf68050a5ef6356bd4bcb4b^sys_idNOT IN4ecf90861bf68050a5ef6356bd4bcbe2"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>idOfFolder</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">4ecf10861bf68050a5ef6356bd4bcb4b</model>
+        <model_id>4ecf10861bf68050a5ef6356bd4bcb4b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4ecf10861bf68050a5ef6356bd4bcb4b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>4ecf90861bf68050a5ef6356bd4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Folder">ec9f58c21bf68050a5ef6356bd4bcb8d</action>
+        <cid>59927ff4-502d-4c84-80bc-9b9c4e9d4bb6</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7410e4861bf68050a5ef6356bd4bcbb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7410e4861bf68050a5ef6356bd4bcbb9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>3010e4861bf68050a5ef6356bd4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7c10e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>cabcff6a1b660810a5ef6356bd4bcb93</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b410e4861bf68050a5ef6356bd4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b810e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>delete</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>f010e4861bf68050a5ef6356bd4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>https://cloudresourcemanager.googleapis.com/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>f410e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7410e4861bf68050a5ef6356bd4bcbb9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7410e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b010e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>fc10e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7810e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b410e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>3c10e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>v2/{{action.folder_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>f010e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7410e4861bf68050a5ef6356bd4bcbb9^sys_idNOT INb810e4861bf68050a5ef6356bd4bcbd9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">7410e4861bf68050a5ef6356bd4bcbb9</model>
+        <model_id>7410e4861bf68050a5ef6356bd4bcbb9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7410e4861bf68050a5ef6356bd4bcbb9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b810e4861bf68050a5ef6356bd4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Folder">ec9f58c21bf68050a5ef6356bd4bcb8d</action>
+        <cid>dbef51ef-cde6-4899-8323-95c243894555</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Post Processing</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>bc10e4861bf68050a5ef6356bd4bcbe8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bc10e4861bf68050a5ef6356bd4bcbe8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bc10e4861bf68050a5ef6356bd4bcbe8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>3810e4861bf68050a5ef6356bd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ 
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bc10e4861bf68050a5ef6356bd4bcbe8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7410e4861bf68050a5ef6356bd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_action_input action="delete_multiple" query="model=ec9f58c21bf68050a5ef6356bd4bcb8d^sys_idNOT INcecf10861bf68050a5ef6356bd4bcb45"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>folder_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Folder ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Delete Folder">ec9f58c21bf68050a5ef6356bd4bcb8d</model>
+        <model_id>ec9f58c21bf68050a5ef6356bd4bcb8d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ec9f58c21bf68050a5ef6356bd4bcb8d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>cecf10861bf68050a5ef6356bd4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=ec9f58c21bf68050a5ef6356bd4bcb8d^sys_idNOT IN4ecf10861bf68050a5ef6356bd4bcb4b,7410e4861bf68050a5ef6356bd4bcbb9,bc10e4861bf68050a5ef6356bd4bcbe8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Folder">ec9f58c21bf68050a5ef6356bd4bcb8d</action>
+        <cid>016730e2-e1a3-499a-80fc-a9f490878f1f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pre Processing</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>4ecf10861bf68050a5ef6356bd4bcb4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4ecf10861bf68050a5ef6356bd4bcb4b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4ecf10861bf68050a5ef6356bd4bcb4b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>02cf90861bf68050a5ef6356bd4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var validPatterForFolder = /^folders\/[^/]+$/;
+  if (!validPatterForFolder.test(idOfFolder)) {
+    throw new Error("Name of the folder is in /^folders\/[^/]+$/ format : " + inputs.nameOfRole); 
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4ecf10861bf68050a5ef6356bd4bcb4b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>4ecf90861bf68050a5ef6356bd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4ecf10861bf68050a5ef6356bd4bcb4b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>4ecf10861bf68050a5ef6356bd4bcb4b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>0acf90861bf68050a5ef6356bd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>idOfFolder</field>
+        <id>4ecf10861bf68050a5ef6356bd4bcb4b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>8acf90861bf68050a5ef6356bd4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4ecf10861bf68050a5ef6356bd4bcb4b</table>
+        <value>{{action.folder_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>4ecf10861bf68050a5ef6356bd4bcb4b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>cacf90861bf68050a5ef6356bd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4ecf10861bf68050a5ef6356bd4bcb4b^sys_idNOT IN4ecf90861bf68050a5ef6356bd4bcbe2"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>idOfFolder</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">4ecf10861bf68050a5ef6356bd4bcb4b</model>
+        <model_id>4ecf10861bf68050a5ef6356bd4bcb4b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4ecf10861bf68050a5ef6356bd4bcb4b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>4ecf90861bf68050a5ef6356bd4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Folder">ec9f58c21bf68050a5ef6356bd4bcb8d</action>
+        <cid>59927ff4-502d-4c84-80bc-9b9c4e9d4bb6</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7410e4861bf68050a5ef6356bd4bcbb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7410e4861bf68050a5ef6356bd4bcbb9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>3010e4861bf68050a5ef6356bd4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7c10e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>cabcff6a1b660810a5ef6356bd4bcb93</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b410e4861bf68050a5ef6356bd4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b810e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>delete</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>f010e4861bf68050a5ef6356bd4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>https://cloudresourcemanager.googleapis.com/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7410e4861bf68050a5ef6356bd4bcbb9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>f410e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7410e4861bf68050a5ef6356bd4bcbb9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7410e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b010e4861bf68050a5ef6356bd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>fc10e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7810e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b410e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>3c10e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>v2/{{action.folder_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>7410e4861bf68050a5ef6356bd4bcbb9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>f010e4861bf68050a5ef6356bd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7410e4861bf68050a5ef6356bd4bcbb9^sys_idNOT INb810e4861bf68050a5ef6356bd4bcbd9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">7410e4861bf68050a5ef6356bd4bcbb9</model>
+        <model_id>7410e4861bf68050a5ef6356bd4bcbb9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7410e4861bf68050a5ef6356bd4bcbb9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>b810e4861bf68050a5ef6356bd4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Folder">ec9f58c21bf68050a5ef6356bd4bcb8d</action>
+        <cid>dbef51ef-cde6-4899-8323-95c243894555</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Post Processing</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>bc10e4861bf68050a5ef6356bd4bcbe8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bc10e4861bf68050a5ef6356bd4bcbe8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bc10e4861bf68050a5ef6356bd4bcbe8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>3810e4861bf68050a5ef6356bd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ 
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bc10e4861bf68050a5ef6356bd4bcbe8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:19:06</sys_created_on>
+        <sys_id>7410e4861bf68050a5ef6356bd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:19:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ec9f58c21bf68050a5ef6356bd4bcb8d^sys_idNOT IN46cf10861bf68050a5ef6356bd4bcb4a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>folder_id</element>
+        <help/>
+        <hint/>
+        <label>Folder ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ec9f58c21bf68050a5ef6356bd4bcb8d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 11:17:49</sys_created_on>
+        <sys_id>46cf10861bf68050a5ef6356bd4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Folder ID</sys_name>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ec9f58c21bf68050a5ef6356bd4bcb8d_folder_id_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 11:17:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

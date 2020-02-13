@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_action</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test Action</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-21 09:43:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d3720281be64010a5ef6356bd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9d3720281be64010a5ef6356bd4bcba5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-21 09:43:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=9d3720281be64010a5ef6356bd4bcba5"/>
+    <sys_variable_value action="DELETE" query="document_key=9d3720281be64010a5ef6356bd4bcba5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</application>
+        <file_path/>
+        <instance_id>a1701f4cdba204d09df22f17d4961937</instance_id>
+        <instance_name>googlespike</instance_name>
+        <name>sys_hub_action_type_definition_9d3720281be64010a5ef6356bd4bcba5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>test_action</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Test Action</name><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-21 09:43:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9d3720281be64010a5ef6356bd4bcba5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Action</sys_name><sys_overrides/><sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package><sys_policy/><sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope><sys_update_name>sys_hub_action_type_definition_9d3720281be64010a5ef6356bd4bcba5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-21 09:43:42</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=9d3720281be64010a5ef6356bd4bcba5"/><sys_variable_value action="delete_multiple" query="document_key=9d3720281be64010a5ef6356bd4bcba5"/></record_update>]]></payload>
+        <payload_hash>-1809043483</payload_hash>
+        <record_name>Test Action</record_name>
+        <reverted_from/>
+        <source>4a74f79c1b264010a5ef6356bd4bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-21 09:43:42</sys_created_on>
+        <sys_id>693720281be64010a5ef6356bd4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc77c7d490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-21 09:43:42</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>a137202830e6401004e4598e5a7077a9</update_guid>
+        <update_guid_history>a137202830e6401004e4598e5a7077a9:-1809043483</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 09:17:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>26937fd13fa24bf48efdeb6985f8a5e4</sys_id>
+        <sys_metadata>9d3720281be64010a5ef6356bd4bcba5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Action</sys_name>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_scope_delete display_value="">a5c12f024cee4a00ab0365669b9bd240</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_9d3720281be64010a5ef6356bd4bcba5</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_9d3720281be64010a5ef6356bd4bcba5">693720281be64010a5ef6356bd4bcba9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 09:17:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

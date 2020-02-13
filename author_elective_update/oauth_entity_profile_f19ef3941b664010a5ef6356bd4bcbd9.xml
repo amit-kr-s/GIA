@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="DELETE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Google Cloud Platform default_profile</name>
+        <oauth_entity display_value="Google Cloud Platform">b68cf3941b664010a5ef6356bd4bcbb3</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-21 06:46:13</sys_created_on>
+        <sys_id>f19ef3941b664010a5ef6356bd4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google Cloud Platform default_profile</sys_name>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>oauth_entity_profile_f19ef3941b664010a5ef6356bd4bcbd9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-21 06:46:13</sys_updated_on>
+    </oauth_entity_profile>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</application>
+        <file_path/>
+        <instance_id>a1701f4cdba204d09df22f17d4961937</instance_id>
+        <instance_name>googlespike</instance_name>
+        <name>oauth_entity_profile_f19ef3941b664010a5ef6356bd4bcbd9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile"><oauth_entity_profile action="INSERT_OR_UPDATE"><default>true</default><grant_type>authorization_code</grant_type><jwt_provider/><name>Google Cloud Platform default_profile</name><oauth_entity display_value="Google Cloud Platform">b68cf3941b664010a5ef6356bd4bcbb3</oauth_entity><sys_class_name>oauth_entity_profile</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-21 06:46:13</sys_created_on><sys_id>f19ef3941b664010a5ef6356bd4bcbd9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Google Cloud Platform default_profile</sys_name><sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package><sys_policy/><sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope><sys_update_name>oauth_entity_profile_f19ef3941b664010a5ef6356bd4bcbd9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-21 06:46:13</sys_updated_on></oauth_entity_profile></record_update>]]></payload>
+        <payload_hash>1615076873</payload_hash>
+        <record_name>Google Cloud Platform default_profile</record_name>
+        <reverted_from/>
+        <source>4a74f79c1b264010a5ef6356bd4bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-21 06:46:13</sys_created_on>
+        <sys_id>359e7fd41b664010a5ef6356bd4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc6da02040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-21 06:46:13</sys_updated_on>
+        <type>OAuth Entity Profile</type>
+        <update_guid>7d9e7fd48a6640107a1b624fbbcaa6f1</update_guid>
+        <update_guid_history>7d9e7fd48a6640107a1b624fbbcaa6f1:1615076873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Google Cloud Platform default_profile">86bdf4e41be24010bdb94263cc4bcb9c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-21 11:22:03</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile">oauth_entity_profile</sys_db_object>
+        <sys_id>38b53cb1205f42c7bd441b97f6e910b9</sys_id>
+        <sys_metadata>f19ef3941b664010a5ef6356bd4bcbd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google Cloud Platform default_profile</sys_name>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_scope_delete display_value="">a5c12f024cee4a00ab0365669b9bd240</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_f19ef3941b664010a5ef6356bd4bcbd9</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_f19ef3941b664010a5ef6356bd4bcbd9">359e7fd41b664010a5ef6356bd4bcbf2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-21 11:22:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

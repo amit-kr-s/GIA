@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_gcpiam_spoke.GoogleIdentityAccessUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GoogleIdentityAccessUtils</name>
+        <script><![CDATA[var GoogleIdentityAccessUtils = Class.create();
+GoogleIdentityAccessUtils.prototype = {
+    initialize: function() {},
+
+    checkSpaceBetweenString: function(input) {
+        var expression = /\s+/g;
+        if (expression.test(input)) {
+            throw new Error("Space not allowed in Input String : " + input);
+        } else {
+            return true;
+        }
+    },
+
+    trimStringInputs: function(inputs) {
+        var status;
+        for (var key in inputs) {
+            gs.info('Google key - ' + key);
+            gs.info('Google value - ' + inputs[key]);
+            if (inputs[key] && typeof inputs[key] == 'string') {
+                inputs[key] = inputs[key].trim();
+            }
+        }
+        return inputs;
+    },
+
+    validateTheInputs: function(inputs) {
+        gs.info('GoogleIdentityAccessUtils.validateTheInputs');
+        var message = 'Please resolve these input conflicts. ';
+        var inputIsFine = true;
+        var regexForRoleID = /[a-zA-Z0-9_\\.]{3,64}/;
+        var regexForProjectID = /[a-zA-Z0-9-]/;
+        var regexForServiceAccount = /[a-z]([-a-z0-9]*[a-z0-9])/;
+        var regexForPredefinedRole = /^roles\/[a-zA-Z0-9_\\.]{3,64}/;
+		var regexForFolder = /^folders\/[^/]+$/;
+
+        for (var key in inputs) {
+            if (key === 'roleid') {
+                if (!regexForRoleID.test(inputs[key])) {
+                    inputIsFine = false;
+                    message = message + 'Role ID pattern is wrong. It should confirm /[a-zA-Z0-9_\\.]{3,64}/ . ';
+                }
+            }
+			
+			if (key === 'idOfRole') {
+                if (!regexForRoleID.test(inputs[key])) {
+                    inputIsFine = false;
+                    message = message + 'Role ID pattern is wrong. It should confirm /[a-zA-Z0-9_\\.]{3,64}/ . ';
+                }
+            }
+
+            if (key === 'idOfProject') {
+                if (!regexForProjectID.test(inputs[key])) {
+                    inputIsFine = false;
+                    message = message + 'Project ID pattern is wrong. It should confirm /[a-zA-Z0-9-]/ ';
+                }
+            }
+
+            if (key === 'serviceAccountID') {
+                if (!regexForServiceAccount.test(inputs[key])) {
+                    inputIsFine = false;
+                    message = message + 'Service Account ID pattern is wrong. It should confirm /[a-z]([-a-z0-9]*[a-z0-9])/ ';
+                }
+            }
+
+            if (key === 'nameOfPreDefinedRole') {
+                if (!regexForPredefinedRole.test(inputs[key])) {
+                    inputIsFine = false;
+                    message = message + 'Name of Predefined Role pattern is wrong. It should confirm ^roles\/[a-zA-Z0-9_\\.]{3,64}';
+                }
+            }
+			
+			if (key === 'idOfFolder') {
+                if (!regexForFolder.test(inputs[key])) {
+                    inputIsFine = false;
+                    message = message + 'ID of Folder pattern is wrong. It should confirm /^folders\/[^/]+$/';
+                }
+            }
+
+            if (key === 'customRoleName') {
+                var tokens = inputs[key].split('/');
+                if ((tokens.length == 4) && (tokens[0] === 'projects') && regexForProjectID.test(tokens[1]) && (tokens[2] == 'roles') && regexForProjectID.test(tokens[3])) {
+                    continue;
+                } else {
+                    inputIsFine = false;
+                    message = message + 'Role Name pattern is wrong. It should be like projects/<project ID>/roles/<role ID>';
+                }
+            }
+        }
+
+        if (inputIsFine) {
+            return 'Ok';
+        } else {
+            return message;
+        }
+
+    },
+
+    type: 'GoogleIdentityAccessUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-30 09:55:33</sys_created_on>
+        <sys_id>3fff7a9b1be68810a5ef6356bd4bcb85</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>GoogleIdentityAccessUtils</sys_name>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>sys_script_include_3fff7a9b1be68810a5ef6356bd4bcb85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 08:16:00</sys_updated_on>
+    </sys_script_include>
+</record_update>

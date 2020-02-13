@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>testing_flow</internal_name>
+        <label_cache>[{"name":"75c97152-dc62-4119-b657-f64cd8d791ec.ds_parsed_stream","label":"1➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string"},{"name":"75c97152-dc62-4119-b657-f64cd8d791ec.ds_output_page_variables","label":"1➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string"},{"name":"75c97152-dc62-4119-b657-f64cd8d791ec.error_code","label":"1➛error_code","reference_display":"error_code","type":"string","base_type":"string"},{"name":"75c97152-dc62-4119-b657-f64cd8d791ec.status_code","label":"1➛status_code","reference_display":"status_code","type":"string","base_type":"string"},{"name":"75c97152-dc62-4119-b657-f64cd8d791ec.error_message","label":"1➛error_message","reference_display":"error_message","type":"string","base_type":"string"},{"name":"75c97152-dc62-4119-b657-f64cd8d791ec.response_headers","label":"1➛response_headers","reference_display":"response_headers","type":"string","base_type":"string"},{"name":"3b488719-35a2-41b2-96d2-aa7036a2814a.ds_parsed_stream","label":"1➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string"},{"name":"3b488719-35a2-41b2-96d2-aa7036a2814a.ds_output_page_variables","label":"1➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string"},{"name":"3b488719-35a2-41b2-96d2-aa7036a2814a.error_code","label":"1➛error_code","reference_display":"error_code","type":"string","base_type":"string"},{"name":"3b488719-35a2-41b2-96d2-aa7036a2814a.status_code","label":"1➛status_code","reference_display":"status_code","type":"string","base_type":"string"},{"name":"3b488719-35a2-41b2-96d2-aa7036a2814a.error_message","label":"1➛error_message","reference_display":"error_message","type":"string","base_type":"string"},{"name":"3b488719-35a2-41b2-96d2-aa7036a2814a.response_headers","label":"1➛response_headers","reference_display":"response_headers","type":"string","base_type":"string"},{"name":"d150237a-2889-44e4-810e-511305c74dec.response_headers","label":"1➛response_headers","reference_display":"response_headers","type":"string","base_type":"string"},{"name":"d150237a-2889-44e4-810e-511305c74dec.error_message","label":"1➛error_message","reference_display":"error_message","type":"string","base_type":"string"},{"name":"d150237a-2889-44e4-810e-511305c74dec.status_code","label":"1➛status_code","reference_display":"status_code","type":"string","base_type":"string"},{"name":"d150237a-2889-44e4-810e-511305c74dec.error_code","label":"1➛error_code","reference_display":"error_code","type":"string","base_type":"string"},{"name":"d150237a-2889-44e4-810e-511305c74dec.ds_output_page_variables","label":"1➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Testing Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-28 06:06:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba88f3a61b660810a5ef6356bd4bcbe1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Testing Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>sys_hub_flow_ba88f3a61b660810a5ef6356bd4bcbe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba88f3a61b660810a5ef6356bd4bcbe1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ba88f3a61b660810a5ef6356bd4bcbe1"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=ba88f3a61b660810a5ef6356bd4bcbe1^sys_idNOT INb8f963f21b728450bdb94263cc4bcbed,fc867afe1b3e4450bdb94263cc4bcbf4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bcf963f21b728450bdb94263cc4bcbec</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Testing Flow">ba88f3a61b660810a5ef6356bd4bcbe1</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>75c97152-dc62-4119-b657-f64cd8d791ec</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 09:56:34</sys_created_on>
+        <sys_id>b8f963f21b728450bdb94263cc4bcbed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <ui_id>050e264e-3e75-4d51-8984-313d8f816b72</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b8f963f21b728450bdb94263cc4bcbed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8f963f21b728450bdb94263cc4bcbed</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 09:56:34</sys_created_on>
+        <sys_id>49f963f21b728450bdb94263cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8f963f21b728450bdb94263cc4bcbed</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 09:56:34</sys_created_on>
+        <sys_id>85f963f21b728450bdb94263cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Roles DS">8037aa721b3e4450bdb94263cc4bcb9c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Testing Flow">ba88f3a61b660810a5ef6356bd4bcbe1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 06:11:50</sys_created_on>
+        <sys_id>fc867afe1b3e4450bdb94263cc4bcbf4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <ui_id>75c97152-dc62-4119-b657-f64cd8d791ec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fc867afe1b3e4450bdb94263cc4bcbf4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ba88f3a61b660810a5ef6356bd4bcbe1^sys_idNOT INbf1973e61b660810a5ef6356bd4bcb47"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Testing Flow">ba88f3a61b660810a5ef6356bd4bcbe1</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-28 06:08:40</sys_created_on>
+        <sys_id>bf1973e61b660810a5ef6356bd4bcb47</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf1973e61b660810a5ef6356bd4bcb47"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bf1973e61b660810a5ef6356bd4bcb47</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-28 06:08:40</sys_created_on>
+        <sys_id>731973e61b660810a5ef6356bd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-28 06:08:40</sys_updated_on>
+        <value>1970-01-01 12:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ba88f3a61b660810a5ef6356bd4bcbe1^sys_idNOT IN3a88bfa61b660810a5ef6356bd4bcbc5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ba88f3a61b660810a5ef6356bd4bcbe1</id>
+        <name>Testing Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-28 06:06:09</sys_created_on>
+        <sys_id>3a88bfa61b660810a5ef6356bd4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-28 06:06:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ba88f3a61b660810a5ef6356bd4bcbe1^sys_idNOT INfc867afe1b3e4450bdb94263cc4bcbf4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Roles DS">8037aa721b3e4450bdb94263cc4bcb9c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Testing Flow">ba88f3a61b660810a5ef6356bd4bcbe1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 06:11:50</sys_created_on>
+        <sys_id>fc867afe1b3e4450bdb94263cc4bcbf4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <ui_id>75c97152-dc62-4119-b657-f64cd8d791ec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fc867afe1b3e4450bdb94263cc4bcbf4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ba88f3a61b660810a5ef6356bd4bcbe1^sys_idNOT INb8f963f21b728450bdb94263cc4bcbed"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bcf963f21b728450bdb94263cc4bcbec</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Testing Flow">ba88f3a61b660810a5ef6356bd4bcbe1</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>75c97152-dc62-4119-b657-f64cd8d791ec</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 09:56:34</sys_created_on>
+        <sys_id>b8f963f21b728450bdb94263cc4bcbed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <ui_id>050e264e-3e75-4d51-8984-313d8f816b72</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b8f963f21b728450bdb94263cc4bcbed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8f963f21b728450bdb94263cc4bcbed</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 09:56:34</sys_created_on>
+        <sys_id>49f963f21b728450bdb94263cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8f963f21b728450bdb94263cc4bcbed</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 09:56:34</sys_created_on>
+        <sys_id>85f963f21b728450bdb94263cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-10 09:56:34</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+</record_update>

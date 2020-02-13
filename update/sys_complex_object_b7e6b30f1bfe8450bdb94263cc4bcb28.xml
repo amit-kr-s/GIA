@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf3e6b30fb8fe8450b667e392acd74528</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>32143bd81b264010a5ef6356bd4bcbb9</scope_name>
+        <serialized_content>{"FlowDesigner:FDf3e6b30fb8fe8450b667e392acd74528":{},"FlowDesigner:FDf3e6b30fb8fe8450b667e392acd74528.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf3e6b30fb8fe8450b667e392acd74528\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Service Account\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 05:31:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7e6b30f1bfe8450bdb94263cc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf3e6b30fb8fe8450b667e392acd74528</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+        <sys_update_name>sys_complex_object_b7e6b30f1bfe8450bdb94263cc4bcb28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 05:31:46</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

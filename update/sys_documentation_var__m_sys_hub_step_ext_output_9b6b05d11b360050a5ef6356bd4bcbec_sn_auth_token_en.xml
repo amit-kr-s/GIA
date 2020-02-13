@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sn_auth_token" label="Credential Value" language="en" table="var__m_sys_hub_step_ext_output_9b6b05d11b360050a5ef6356bd4bcbec">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sn_auth_token</element>
+            <help/>
+            <hint/>
+            <label>Credential Value</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_9b6b05d11b360050a5ef6356bd4bcbec</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-05 06:33:04</sys_created_on>
+            <sys_id>d76b05d11b360050a5ef6356bd4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Credential Value</sys_name>
+            <sys_package display_value="Google Cloud IAM Spoke" source="x_snc_gcpiam_spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Cloud IAM Spoke">32143bd81b264010a5ef6356bd4bcbb9</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_9b6b05d11b360050a5ef6356bd4bcbec_sn_auth_token_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-05 06:33:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
